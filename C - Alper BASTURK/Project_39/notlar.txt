@@ -1,0 +1,6 @@
+Alper: 22
+Mehmet: 62
+Ayse: 72
+Göksel: 84
+Hello: 39
+Jelly: 47

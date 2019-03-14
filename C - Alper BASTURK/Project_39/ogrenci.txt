@@ -1,0 +1,6 @@
+Alper 10 20 30
+Mehmet 50 60 70
+Ayse 45 55 95
+Göksel 95 75 83
+Hello 12 34 56
+Jelly 75 65 25
