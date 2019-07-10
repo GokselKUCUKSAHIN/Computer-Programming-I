@@ -20,12 +20,8 @@ int main(void)
 	printf("1. Noktanin Koordinatlarini Girin -> "); scanf("%f%f",&p1.x,&p1.y);
 	printf("2. Noktanin Koordinatlarini Girin -> "); scanf("%f%f",&p2.x,&p2.y);
 //	Leng=sqrt((p1.x-p2.x)*(p1.x-p2.x)+(p1.y-p2.y)*(p1.y-p2.y));
-//	printf("Uzaklýk = %.3f",Leng);
+//	printf("UzaklÃ½k = %.3f",Leng);
 	Leng=uzaklik(p1,p2);
 	printf("Uzakliklari = %f",Leng);
-	
-
 	return 0;
 }
-
-
