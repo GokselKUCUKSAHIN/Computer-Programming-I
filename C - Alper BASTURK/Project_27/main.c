@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Pointer tipindeki fonksiyona örnek
-//o fonksiyonun kendisini çaðýrana bir adres göndereceðini ifade eder
+//Pointer tipindeki fonksiyona Ã¶rnek
+//o fonksiyonun kendisini cagÄ±rana bir adres gÃ¶nderecegini ifade eder
 
 void caticiz();
 void katciz( int);
@@ -12,8 +12,7 @@ int main(void) {
 	printf("kac katli bina olsun? ");
 	scanf("%d",&k);
 	caticiz();
-	
-		katciz(k);
+	katciz(k);
 	system("PAUSE");
 	return 0;
 }
