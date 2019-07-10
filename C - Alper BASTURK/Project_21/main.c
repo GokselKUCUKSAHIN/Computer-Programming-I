@@ -1,22 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-//Dörtgen çizme yazýlýmý 
+//DÃ¶rtgen Ã§izme 
 int main(void)
 {
-	int x,y; //kordinat deðiþkenlerim
-	printf("X ekseni -> "); scanf("%d",&x); //X kordinatý
-	printf("Y ekseni -> "); scanf("%d",&y); //Y kordinatý
-	printf("x=%d, y=%d\n\n",x,y); //aldýðýmýz deðerler
+	int x,y; //kordinat deÃ°iÃ¾kenlerim
+	printf("X ekseni -> "); scanf("%d",&x); //X kordinatÃ½
+	printf("Y ekseni -> "); scanf("%d",&y); //Y kordinatÃ½
+	printf("x=%d, y=%d\n\n",x,y); //aldÃ½Ã°Ã½mÃ½z deÃ°erler
 	int i,j;
 	for (j=y;j>=1;--j)
 	{
 		for(i=x;i>=1;--i)
-			printf("X ");
-					
+			printf("X ");		
 		printf("\n");
 	}
 	printf("\n");
 	system("PAUSE");
 	return 0;
 }
-
