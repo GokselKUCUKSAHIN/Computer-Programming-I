@@ -6,12 +6,12 @@ int main()
 	int x;
 	for(x=5;x<15;x+=1){
 		if (x==8)
-		break;
+			break;
 		printf("Break dongude, x in degeri simdi %d\n",x);
 	}
 	for (x=5;x<15;x+=1){
 		if(x==8)
-		continue;
+			continue;
 		printf("Continue dongude, x in degeri simdi %d\n",x);
 	}
 	system("PAUSE");
